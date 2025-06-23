@@ -77,7 +77,7 @@ export const skillsData: SkillType[] = [
     },
     {
         id: 12,
-        title: "(MySQL, MS SQL Server, MongoDB)",
+        title: "(MySQL, MS SQL, MongoDB)",
         icon: FaDatabase,
         color: "#00758F"
     },
