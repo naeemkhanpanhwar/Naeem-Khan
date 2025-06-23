@@ -1,6 +1,6 @@
 import SectionTitle from "@components/ui/sectionTitle";
 import SlideUp from "@utils/animations/slideUp";
-import { skillsData, SkillType } from "@utils/fackData/skillsData";
+import { skillsData } from "@utils/fackData/skillsData";
 
 const Skills = () => {
     return (

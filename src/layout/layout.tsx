@@ -8,13 +8,9 @@ import Loading from '@components/ui/loading'
 const Layout = () => {
   const [isFixed, setIsFixed] = useState(false);
   const [showScrollTop, setShowScrollTop] = useState(false);
-  const [isDark, setIsDark] = useState(false)
   const [loading, setLoading] = useState(true)
 
   useEffect(() => {
-    const currentTheme = localStorage.getItem('theme')
-    // Always set dark theme
-    setIsDark(true)
     document.querySelector("body")?.classList.add('dark-version')
 
     const handleScroll = () => {
