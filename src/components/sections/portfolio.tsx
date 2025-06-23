@@ -65,7 +65,7 @@ const Portfolio = () => {
                                 transition={{ duration: 0.4 }}
                                 className="col-lg-4 col-md-6 item"
                             >
-                                <Card category={tab.category} title={tab.title} img={tab.img} id={tab.id} />
+                                <Card category={tab.category} title={tab.title} img={tab.img} id={tab.id} url={tab.url} />
                             </motion.div>
                         ))}
                     </AnimatePresence>
@@ -81,20 +81,21 @@ export default Portfolio
 type CardPropsType = {
     title: string,
     img: string,
+    url: string,
     category: string,
     id: number
 }
-const Card = ({ img, title, category, id }: CardPropsType) => {
+const Card = ({ img, title, url, category, id }: CardPropsType) => {
     return (
         <SlideUp delay={id}>
             <div className="project-item style-two wow fadeInUp delay-0-2s">
                 <div className="project-image">
                     <img src={img} alt="Project" />
-                    <a href="#" className="details-btn"><i className="far fa-arrow-right" /></a>
+                    <a href={url} className="details-btn" target="_blank" rel="noopener noreferrer"><i className="far fa-arrow-right" /></a>
                 </div>
                 <div className="project-content">
                     <span className="sub-title">{category}</span>
-                    <h3><a href="#">{title}</a></h3>
+                    <h3><a href={url} target="_blank" rel="noopener noreferrer">{title}</a></h3>
                 </div>
             </div>
         </SlideUp>
