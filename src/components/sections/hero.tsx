@@ -24,7 +24,7 @@ const Hero = () => {
                 {/* <img src="/images/shape/dot-shape-circle.png" alt="Shape" /> */}
               </div>
               <div className="hero-btns">
-                <a href="/cv.pdf" className="theme-btn" download>Download CV <i className="far fa-angle-right" /></a>
+                <a href="https://drive.google.com/file/d/1p-t6HIwsGszPoPW7Q49ydgHW5LUT8Fyh/view?usp=drivesdkf" className="theme-btn" download>Download CV <i className="far fa-angle-right" /></a>
               </div>
             </SlideUp>
             {/* / END HERO DESIGN AREA */}

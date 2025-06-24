@@ -3,7 +3,7 @@ export const portfolioData = [
         id:1,
         title:"Employee Management System",
         img:"/images/projects/work1.png",
-        url:"",
+        url:"https://github.com/naeemkhanpanhwar/EMP_MNG_SYSTEM.git",
         category:"Frontend"
     },
     {
@@ -17,7 +17,7 @@ export const portfolioData = [
         id:3,
         title:"Personal Portfolio",
         img:"/images/projects/work3.png",
-        url:"",
+        url:"https://github.com/naeemkhanpanhwar/Naeem-Khan.git",
         category:"Frontend"
     },
     
@@ -25,7 +25,7 @@ export const portfolioData = [
         id:4,
         title:"CafeCore",
         img:"/images/projects/work4.png",
-        url:"",
+        url:"https://github.com/naeemkhanpanhwar/CafeCore.git",
         category:"Backend"
     },
     {
