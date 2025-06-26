@@ -90,7 +90,7 @@ const Card = ({ img, title, url, category, id }: CardPropsType) => {
         <SlideUp delay={id}>
             <div className="project-item style-two wow fadeInUp delay-0-2s">
                 <div className="project-image">
-                    <img src={img} alt="Project" style={{ height: '200px', width: '100%', objectFit: 'cover' }}/>
+                    <img src={img} alt="Project" style={{ height: '220px', width: '100%', objectFit: 'cover' }}/>
                     <a href={url} className="details-btn" target="_blank" rel="noopener noreferrer"><i className="far fa-arrow-right" /></a>
                 </div>
                 <div className="project-content">
